@@ -1,0 +1,271 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin:auto;
+    
+}
+/*----------------
+ header part start
+ ----------------- */
+
+ #banner-part{
+     height:667px;
+     max-width: 100%;
+     background-color: #2D25A0;
+ }
+ .banner-info{
+     width: 1160px;
+     height: 100%;
+     margin:auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ .banner-content{
+     
+ }
+ .banner-content h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+ }
+ .banner-btn{
+     height: 44px;
+     width: 168px;
+     padding:10px 24px;
+     background-color:  #E02C6D;
+     color:#FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 2s;
+ }
+ .banner-btn:hover{
+     background-color: #FFFFFF;
+     color:red;
+ }
+ .banner-btn i{
+     
+     margin-left: 15px;
+ }
+ .banner-img{
+     display: flex;
+     justify-content: flex-end;
+     transition: 4s;
+     
+ }
+ .banner-img img{
+     width: 557px;
+     height: 338px;
+     
+ }
+ .banner-img :hover{
+     transform: scale(1.2);
+ }
+
+ /* ----------------
+
+ player part start
+
+------------------- */
+
+.blogs{
+    margin-top: 70px;
+    
+
+    
+    
+}
+.blog-part{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+
+}
+.blogs-info{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+
+}
+.blogs-info img{
+   width: 100%;
+   transition: .5s;
+   
+}
+.blogs-info img:hover{
+    transform: scale(1.2);
+}
+.blogs-info h1{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    margin:16px 0px 10px 0px;
+    padding:0px;
+}
+.blogs-info p{
+    margin:0px;
+}
+
+.frist-part{
+    margin-top: 15px;
+    margin-bottom: -12px;
+}
+.second-part{
+    margin-bottom: 12px;
+}
+
+/* about section start */
+
+.about-section{
+    padding:80px 0px;
+}
+.about-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-heading h2,p{
+    margin:0px;
+}
+.about-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    
+}
+.about-item{
+    text-align: center;
+    border-right: 1px solid #ddd;
+
+}
+.about-item i{
+    color:red;
+}
+.about-item:last-child{
+    border-right: none;
+}
+/* heighlight part start */
+
+.heightlight-part{
+    padding:70px 0px;
+}
+.heightlight{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.heightlight-left h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin:0px;
+}
+.heightlight-left p{
+    margin-top:10px;
+}
+.heightlight-left button{
+    width: 173px;
+    height: 44px;
+    left: 0px;
+    top: 265px;
+    color:aliceblue;
+    border:none;
+    background: #E02C6D;
+    margin-top: 20px;
+}
+.heightlight-left button i{
+    margin-left: 8px;
+}
+.heightlight-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.heightlight-right img{
+    width: 70%;
+}
+
+
+/* contact us part start */
+.contact-part{
+    padding:50px 0px;
+    
+}
+.contact-heading h2{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom:20px;
+}
+.contact-info{
+    background-color: black;
+    padding:40px;
+}
+.input-1{
+    width: 600px;
+    margin:auto; 
+}
+.from-controls{
+    width: 100%;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    height: 80px;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.input-2{
+    width: 800px;
+    margin:auto;
+    margin-top: 50px;
+    
+}
+.input-2 textarea{
+    height: 50px;
+}
+
+
+
+
+
+/* fotter part start */
+.fotter-part{
+    margin-top: 50px;
+}
+.fotter-info{
+    display: flex;
+    justify-content: center;
+}
+.fotter-info img{
+    width: 60%;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+   
+}
+.social-icon img{
+    margin:8px;
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
