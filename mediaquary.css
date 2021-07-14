@@ -1,0 +1,174 @@
+/* -----------------------
+
+media quary css start
+
+-------------------------*/
+
+/* mobail device */
+
+@media only screen and (max-width:688px) {
+
+    
+    #banner-part{
+        
+    }
+   .banner-info{
+       flex-direction: column;
+       
+   }
+   .banner-img{
+       margin-top: 30px;
+       
+   }
+
+   
+   /* blog part start */
+   .blog-part{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+   }
+  
+   .blogs-info img{
+       
+     width: 100%;
+       
+   }
+   .blog-ingo{
+       
+   }
+   /* heightlight part */
+   
+   .heightlight-part{
+       
+   }
+   .heightlight{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+   .heightlight-right{
+       display: flex;
+       justify-content: center;
+       padding-top: 20px;
+   }
+  
+   /* about part */
+   .about-section{}
+   .about-heading{
+       text-align: center;
+       margin-bottom: 20px;
+
+   }
+   .about-part{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding:0px 50px;
+   }
+   .about-item{
+       margin-bottom: 30px;
+   }
+   .about-part h3,p{
+       font-size: 16px;
+   }
+   /* contact info */
+
+   .contact-part{
+        display: none;
+   }
+   .contact-info{
+      
+   }
+   .from-controls{
+       
+   }
+
+   /* fotter part start */
+   .fotter-part{}
+   .fotter-info{}
+   .social-icon{}
+   .aption{}
+
+   
+  
+}
+@media (min-width:689px) and (max-width:992px){
+
+
+    /* header part */
+    #banner-part{
+       
+    }
+   .banner-info{
+    flex-direction: column;
+       
+       
+   }
+   .banner-img{
+       margin-top: 30px;
+       
+   }
+
+
+   /* blog part start */
+
+    .blog-part{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        padding: 0px 20px;
+    }
+    .blogs-info img{
+        width: 100%;
+    }
+
+      /* heightlight part */
+   
+    .heightlight-part{
+        
+    }
+    .heightlight{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .heightlight-right{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+     /* about part */
+   .about-section{}
+   .about-heading{
+       text-align: center;
+       margin-bottom: 20px;
+
+   }
+   .about-part{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding:0px 50px;
+   }
+   .about-item{
+       margin-bottom: 30px;
+   }
+   .about-part h3,p{
+       font-size: 16px;
+   }
+
+    /* contact info */
+
+    .contact-part{
+        display: none;
+   }
+   .contact-info{
+      
+   }
+   .from-controls{
+       
+   }
+    
+    
+}

@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 1160px;
+    max-width: 1160px;
     margin:auto;
     
 }
@@ -13,21 +13,25 @@ body{
  ----------------- */
 
  #banner-part{
-     height:667px;
-     max-width: 100%;
-     background-color: #2D25A0;
+     padding: 100px 0px;
+     /* display: flex;
+     align-items: center; */
+     width: 100%;
+     background-color:green;
+    
+    
  }
  .banner-info{
-     width: 1160px;
-     height: 100%;
-     margin:auto;
      display: flex;
-     justify-content: center;
+     flex-wrap: wrap;
+     justify-content:space-between;
      align-items: center;
+    
     
  }
  .banner-content{
-     
+     flex: 1;
+    
  }
  .banner-content h1{
     font-family: Poppins;
@@ -46,7 +50,7 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
-     transition: 2s;
+     transition: .5s;
  }
  .banner-btn:hover{
      background-color: #FFFFFF;
@@ -57,18 +61,16 @@ body{
      margin-left: 15px;
  }
  .banner-img{
-     display: flex;
-     justify-content: flex-end;
-     transition: 4s;
+    
+    flex: 1;
+    
+     
      
  }
  .banner-img img{
-     width: 557px;
-     height: 338px;
+    width: 100%;
+
      
- }
- .banner-img :hover{
-     transform: scale(1.2);
  }
 
  /* ----------------
@@ -134,10 +136,12 @@ body{
 }
 .about-heading{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .about-heading h2,p{
     margin:0px;
+    font-size: 25px;
+    
 }
 .about-part{
     display: grid;
@@ -152,6 +156,12 @@ body{
 }
 .about-item i{
     color:red;
+}
+.about-item h3{
+    font-size: 22px;
+}
+.about-item p{
+   
 }
 .about-item:last-child{
     border-right: none;
@@ -239,6 +249,7 @@ body{
 }
 .input-2 textarea{
     height: 50px;
+    resize: none;
 }
 
 
@@ -269,3 +280,7 @@ body{
     justify-content: center;
     margin-bottom: 30px;
 }
+
+
+
+
