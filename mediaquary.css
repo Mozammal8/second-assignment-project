@@ -26,6 +26,7 @@ media quary css start
    .blog-part{
         display: grid;
         grid-template-columns: 1fr;
+        padding: 0px 20px;
        
    }
   
@@ -40,13 +41,14 @@ media quary css start
    /* heightlight part */
    
    .heightlight-part{
-       
+       padding:0px;
    }
    .heightlight{
        display: flex;
        flex-direction: column;
        text-align: center;
    }
+   
    .heightlight-right{
        display: flex;
        justify-content: center;
@@ -68,10 +70,27 @@ media quary css start
    }
    .about-item{
        margin-bottom: 30px;
+       padding:0px 30px;
+       border-right:none;
    }
-   .about-part h3,p{
+   .about-part h3{
        font-size: 16px;
    }
+
+   /* heighlight part */
+
+   .heightlight-left h1{
+       font-size: 30px;
+   }
+   .heightlight-left p{
+        font-size: 18px;
+        padding:0px 40px; 
+}
+
+
+
+
+
    /* contact info */
 
    .contact-part{
@@ -137,6 +156,16 @@ media quary css start
         justify-content: center;
         padding-top: 20px;
     }
+   
+
+   .heightlight-left h1{
+         font-size: 30px;
+      }
+    .heightlight-left p{
+        font-size: 18px;
+        padding:0px 40px; 
+    }
+
 
      /* about part */
    .about-section{}
@@ -153,6 +182,7 @@ media quary css start
    }
    .about-item{
        margin-bottom: 30px;
+       border-right: none;
    }
    .about-part h3,p{
        font-size: 16px;

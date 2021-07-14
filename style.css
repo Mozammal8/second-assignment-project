@@ -14,8 +14,6 @@ body{
 
  #banner-part{
      padding: 100px 0px;
-     /* display: flex;
-     align-items: center; */
      width: 100%;
      background-color:green;
     
@@ -61,16 +59,16 @@ body{
      margin-left: 15px;
  }
  .banner-img{
-    
     flex: 1;
+    transition: .6s;
     
-     
-     
  }
  .banner-img img{
     width: 100%;
-
-     
+  
+ }
+ .banner-img:hover{
+     transform: scale(1.2);
  }
 
  /* ----------------
@@ -81,10 +79,7 @@ body{
 
 .blogs{
     margin-top: 70px;
-    
-
-    
-    
+   
 }
 .blog-part{
     display:grid;
@@ -114,11 +109,15 @@ body{
     font-weight: bold;
     font-size: 28px;
     line-height: 40px;
-    margin:16px 0px 10px 0px;
+    margin:20px 0px 10px 0px;
     padding:0px;
 }
 .blogs-info p{
     margin:0px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
 }
 
 .frist-part{
@@ -138,10 +137,14 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
-.about-heading h2,p{
+.about-heading h2{
     margin:0px;
-    font-size: 25px;
-    
+    font-size: 35px;
+}
+.about-heading p{
+    font-size: 22px;
+    color:red;
+    margin-bottom: 30px;
 }
 .about-part{
     display: grid;
@@ -155,10 +158,17 @@ body{
 
 }
 .about-item i{
-    color:red;
+    color:wheat;
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 50%;
 }
 .about-item h3{
-    font-size: 22px;
+    font-size: 28px;
 }
 .about-item p{
    
@@ -238,8 +248,11 @@ body{
     height: 80px;
     text-align: center;
     color:#fff;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
+}
+.from-controls:focus{
+    color:green;
 }
 .input-2{
     width: 800px;
@@ -272,13 +285,35 @@ body{
     justify-content: center;
    
 }
-.social-icon img{
-    margin:8px;
+.social-icon a{
+    height: 65px;
+    width: 65px;
+    background-color: grey;
+    line-height: 65px;
+    text-align: center;
+    margin:10px;
+    border-radius: 50%;
+    color:black;
+    text-decoration: none;
+    transition: .4s;
+
+}
+.social-icon a:hover{
+    background-color: green;
+    color:white;
+}
+.social-icon i{
+    font-size: 22px;
 }
 .caption{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+.caption p{
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 
